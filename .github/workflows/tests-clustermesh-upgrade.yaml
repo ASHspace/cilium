@@ -108,6 +108,8 @@ jobs:
             SHA="${{ github.sha }}"
           fi
 
+          SHA=c0321c940636343d55ee787d8a00c8fe7d4aa3ab
+
           CILIUM_DOWNGRADE_VERSION=$(contrib/scripts/print-downgrade-version.sh)
 
           CILIUM_IMAGE_SETTINGS=" \
